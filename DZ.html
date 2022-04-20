@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <h1><i>Пожалуйста, заполните форму.Обязательные поля отмечены *</i></h1>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+        <!-- БЛОЧНЫЕ И СТРОЧНЫЕ ЭЛЕМЕНТЫ-->
+
+    <form action="#" method="post">
+        <fieldset> 
+            <legend>Контактная информация</legend>
+
+           <div>
+                <label for="textField">Имя *</label>
+                <input id="textField" type="text" placeholder="Текст" maxlength="8">
+            </div>
+            <div>
+            <label for="phoneField">Телефон </label>
+            <input id="phoneField" type="tel">
+        </div>
+       <div>
+            <label for="emailField">Email* </label>
+            <input id="emailField" type="email">
+        </div> 
+    </fieldset>
+        <fieldset>
+            <legend>Персональная информация</legend>
+            <div>
+            <label for="numberField">Возраст</label>
+          <input id="numberField" type="number" value="6" min="-10" max="10" step="2">
+        </div>
+         <legend>Пол</legend>
+         <select>
+                <option value="1">Мужчина</option>
+                <option value="2">Женщина</option>
+            </select>
+            <div>
+                <label for="textareaField">Перечислите личные качества </label>
+                <textarea id="textareaField"></textarea>
+            </div>
+     </fieldset>
+<fieldset>
+  <legend>Выберите ваших любимых животных</legend>
+             <label><input type="checkbox">Зебра</label>
+             <label><input type="checkbox">Кошка</label>.
+            <label><input type="checkbox">Анаконда</label>
+            <label><input type="checkbox">Человек</label>
+            <label><input type="checkbox">Слон</label>
+            <label><input type="checkbox">Антилопа</label>
+            <label><input type="checkbox">Голубь</label>
+            <label><input type="checkbox">Краб</label>
+        </fieldset>
+
+
+        <input type="submit" value="Отправить информацию">
